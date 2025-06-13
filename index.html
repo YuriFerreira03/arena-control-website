@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArenaControl — Modernização do Placar Eletrônico</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- CABEÇALHO -->
+  <header class="header container">
+    <img src="assets/images/ArenaControl.png" alt="Logo do Projeto ArenaControl" class="logo" />
+    <div class="header-text">
+      <h1 class="project-title">ArenaControl</h1>
+      <p class="tagline">
+        Retrofit do placar eletrônico do ginásio&nbsp;CEFET-MG — Campus Leopoldina
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- SOBRE -->
+    <section class="about">
+      <h2 class="section-title">Sobre o Projeto</h2>
+      <p>
+        Este TCC moderniza o placar eletrônico do ginásio poliesportivo do CEFET-MG – Campus Leopoldina, substituindo o controlador manual obsoleto por um sistema integrado de hardware (ESP32) e software (app React Native). A solução registra e exibe pontuações em tempo real, armazenando estatísticas das partidas.
+      </p>
+    </section>
+
+    <!-- 1 ▪ MANUTENÇÃO -->
+    <section class="block">
+      <h2 class="section-title">1. Manutenção do Placar Eletrônico</h2>
+
+      <div class="scroll-gallery">
+        <figure><img src="assets/images/Placar.jpeg" alt="Placar geral" /><figcaption>Placar original</figcaption></figure>
+        <figure><img src="assets/images/WhatsApp_Image_2025-02-01_at_11.56.41-removebg-preview.png" alt="Controlador antigo" /><figcaption>Controlador manual</figcaption></figure>
+        <figure><img src="assets/images/tras3.jpg" alt="Placa controladora" /><figcaption>Jumpers de reparo</figcaption></figure>
+        <figure><img src="assets/images/traseiraplacar.jpg" alt="Remoção de CI" /><figcaption>Remoção do CI defeituoso</figcaption></figure>
+        <figure><img src="assets/images/frente4.jpg" alt="CI substituído" /><figcaption>CI substituído</figcaption></figure>
+      </div>
+
+      <div class="grid-videos">
+        <label class="zoom-video">
+          <figure>
+            <video controls>
+              <source src="assets/images/videos/WhatsApp Video 2025-06-12 at 22.07.11.mp4" type="video/mp4" />
+            </video>
+            <figcaption>Teste funcional pós-manutenção</figcaption>
+          </figure>
+        </label>
+      </div>
+    </section>
+
+    <!-- 2 ▪ RETROFIT -->
+    <section class="block">
+      <h2 class="section-title">2. Retrofit do Controlador & Testes</h2>
+
+      <div class="scroll-gallery">
+        <figure><img src="assets/images/1-2.png" alt="ESP32 instalado" /><figcaption>Novo ESP32</figcaption></figure>
+        <figure><img src="assets/images/2.jpeg" alt="Teste no placar" /><figcaption>Teste direto no placar</figcaption></figure>
+        <figure><img src="assets/images/1.jpeg" alt="Placar operando" /><figcaption>Placar ativo com ESP32</figcaption></figure>
+      </div>
+
+      <div class="grid-videos">
+        <label class="zoom-video">
+          <figure>
+            <video controls>
+              <source src="assets/images/videos/VID_01.MOV" type="video/mp4" />
+            </video>
+            <figcaption>Engenharia Reversa no controlador</figcaption>
+          </figure>
+        </label>
+
+        <label class="zoom-video">
+          <figure>
+            <video controls>
+              <source src="assets/images/videos/WhatsApp Video 2025-06-12 at 22.10.35.mp4" type="video/mp4" />
+            </video>
+            <figcaption>Placar funcionando após decodificação</figcaption>
+          </figure>
+        </label>
+      </div>
+    </section>
+
+    <!-- 3 ▪ APLICATIVO -->
+    <section class="block">
+      <h2 class="section-title">3. Aplicativo Placar</h2>
+
+      <div class="scroll-gallery">
+        <figure><img src="assets/images/app-home.jpg" alt="Tela inicial do app" /><figcaption>Tela inicial</figcaption></figure>
+        <figure><img src="assets/images/app-match.jpg" alt="Tela da partida" /><figcaption>Pontuação em tempo real</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- DOWNLOADS -->
+    <section class="download">
+      <h2 class="section-title">Downloads</h2>
+      <p>
+        <a class="btn" href="assets/apk/ArenaControl.apk" download>📱 Baixar APK</a>
+        <a class="btn" href="assets/docs/TCC-completo.pdf" target="_blank">📄 Visualizar TCC (PDF)</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <p>&copy; 2025 Yuri Fereira • ArenaControl</p>
+  </footer>
+</body>
+</html>
